@@ -1,4 +1,4 @@
-<img src="https://giphy.com/gifs/quibi-john-travolta-kevin-hart-die-kfWPSRdU8qxsfE5adZ" width="100%" />
+<img src="https://media.giphy.com/media/VhneMg6g1xrDiEpVUu/source.gif" width="100%" />
 
 # Yash Raj Pandey
 Hi👋, I'm Yash Raj Pandey, a CSE Undergraduate from Jaypee University of Engineering and Technology.
