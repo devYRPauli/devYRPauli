@@ -1,4 +1,5 @@
-### Hi there 👋
+# Yash Raj Pandey
+
 
 <!--
 **devYRPauli/devYRPauli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -10,7 +11,12 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## - 📫 How to reach me:
+- Twitter: [I_AM_YRP](https://twitter.com/I_AM_YRP)
+- Blog: [Timid Talkers](https://timidtalkers.weebly.com/)
+- LinkedIn: [Yash Raj Pandey](https://www.linkedin.com/in/devyrpauli/)
+- IG: [i.m.yrp](https://www.instagram.com/i.m.yrp/)
