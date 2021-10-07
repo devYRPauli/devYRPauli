@@ -21,4 +21,4 @@ Here are some ideas to get you started:
 
 ## - 📫 How to reach me:
 - Twitter: [I_AM_YRP](https://twitter.com/I_AM_YRP)
-- LinkedIn: [Yash Raj Pandey](https://www.linkedin.com/in/devyrpauli/)
+- LinkedIn: [Yash Raj Pandey](https://www.linkedin.com/in/yashrajpandeyy/)
