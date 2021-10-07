@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/VhneMg6g1xrDiEpVUu/source.gif" width="100%" />
+<img src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" width="100%" />
 
 # Yash Raj Pandey
 Hi👋, I'm Yash Raj Pandey, a CSE Undergraduate from Jaypee University of Engineering and Technology.
@@ -20,6 +20,4 @@ Here are some ideas to get you started:
 
 ## - 📫 How to reach me:
 - Twitter: [I_AM_YRP](https://twitter.com/I_AM_YRP)
-- Blog: [Timid Talkers](https://timidtalkers.weebly.com/)
 - LinkedIn: [Yash Raj Pandey](https://www.linkedin.com/in/devyrpauli/)
-- IG: [i.m.yrp](https://www.instagram.com/i.m.yrp/)
