@@ -39,7 +39,11 @@ interests:
 fun_fact: I blend logic with creativity — like code that not only works but feels elegant 🎨💻
 ```
 
-
+<p align="center">
+  <a href="https://drive.google.com/file/d/1-cq73MlX52DjM3Z8xWybK__nCUhoJ5-e/view?usp=sharing" target="_blank" download>
+    <img src="https://img.shields.io/badge/Download%20Resume-181717?style=for-the-badge&logo=adobeacrobatreader&logoColor=red&labelColor=gray&color=gray" alt="Resume PDF">
+  </a>
+</p>
 
 <h2>🚀 What I Do</h2>
 
