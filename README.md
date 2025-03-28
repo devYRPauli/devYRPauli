@@ -6,7 +6,7 @@
 <h3 align="center">Software Engineer • Problem Solver • Tech Explorer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&multiline=true&width=750&height=60&lines=Building+robust+backends+%7C+Solving+real-world+problems;Full-stack+Engineering+%7C+Lifelong+Learner;Clean+Code.+Smart+Systems.+Happy+Users." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&multiline=true&width=750&height=60&lines=Building+Robust+Backends+%7C+Solving+Real-World+Problems;Full-stack+Engineer+%7C+Lifelong+Learner;Clean+Code.+Smart+Systems.+Happy+Users." alt="Typing SVG" />
 </p>
 
 
