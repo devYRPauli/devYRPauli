@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="100%" alt="Banner" /><h1 align="center">Hey there, I'm Yash Raj Pandey 👋</h1><h3 align="center">Engineer | Innovator | Problem Solver</h3><p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&multiline=true&width=435&lines=Data-Driven+Developer;Backend+Engineer+%7C+Algorithm+Optimizer;Lifelong+Learner+and+Builder" alt="Typing SVG" /></p><h2>🧑‍💻 Who Am I?</h2>
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60px" alt="Wave" /><h1 align="center">Hey there, I'm Yash Raj Pandey 👋</h1><h3 align="center">Engineer | Innovator | Problem Solver</h3><p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&multiline=true&width=435&lines=Data-Driven+Developer;Backend+Engineer+%7C+Algorithm+Optimizer;Lifelong+Learner+and+Builder" alt="Typing SVG" /></p><br><br><h2>🧑‍💻 Who Am I?</h2>
 
 ```yaml
 name: Yash Raj Pandey
