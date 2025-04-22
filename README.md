@@ -40,7 +40,7 @@ fun_fact: I blend logic with creativity — like code that not only works but fe
 ```
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1-cq73MlX52DjM3Z8xWybK__nCUhoJ5-e/view?usp=sharing" target="_blank" download>
+  <a href="https://drive.google.com/file/d/1b1kuEGHOhi9TcY23rBrV7-SphsMUR1Yj/view?usp=sharing" target="_blank" download>
     <img src="https://img.shields.io/badge/Download%20Resume-181717?style=for-the-badge&logo=adobeacrobatreader&logoColor=red&labelColor=gray&color=gray" alt="Resume PDF">
   </a>
 </p>
