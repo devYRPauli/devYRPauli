@@ -53,7 +53,7 @@ Independent evaluation of TurboQuant (arXiv 2504.19874), a near-optimal LLM quan
 A git-native, self-hostable editor for Markdown: real-time multiplayer, inline comments, and accept/reject suggestions, plus a first-class HTTP API so AI agents read, edit, and review documents the same way people do. Published on npm and built on proof-sdk.
 
 - Local-first and git-native: every change is a commit, no central database to run
-- Real-time collaboration with comments and accept/reject suggestion review
+- Real-time collaboration with comments and accept/reject suggestion review, backed by a CRDT (Yjs) document model that merges concurrent edits without conflicts
 - Agent-facing HTTP API with per-agent tokens and rate limits, so automated writers are first-class collaborators, not bolt-ons
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
