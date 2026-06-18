@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,50:1a3a5c,100:4d9fff&height=200&section=header&text=Yash%20Raj%20Pandey&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=AI%20Agents%20Architect%20%C2%B7%20Local-First%20AI%20Infrastructure&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,50:1a3a5c,100:4d9fff&height=200&section=header&text=Yash%20Raj%20Pandey&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=AI%20Agents%20Architect%20-%20Local-First%20AI%20Infrastructure&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=4D9FFF&center=true&vCenter=true&width=700&lines=Self-hosted+LLMs+that+never+leak+your+data;RAG+%C2%B7+Vector+search+%C2%B7+AI+agents;AI+that+runs+in+production%2C+not+in+a+demo)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=4D9FFF&center=true&vCenter=true&width=700&lines=Self-hosted+LLMs+that+never+leak+your+data;RAG+-+Vector+search+-+AI+agents;AI+that+runs+in+production%2C+not+in+a+demo)
 
 [![Website](https://img.shields.io/badge/Website-yashrajpandey.com-4d9fff?style=for-the-badge)](https://yashrajpandey.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashrajpandeyy/)
@@ -44,9 +44,9 @@ Independent evaluation of TurboQuant (arXiv 2504.19874), a near-optimal LLM quan
 ![llama.cpp](https://img.shields.io/badge/llama.cpp-4d9fff?style=flat-square)
 ![Quantization](https://img.shields.io/badge/Quantization-1a3a5c?style=flat-square)
 
-[**View the repo →**](https://github.com/devYRPauli/turboquant-m1pro-evaluation)
+[**View the repo ->**](https://github.com/devYRPauli/turboquant-m1pro-evaluation)
 
-### Blue Omics &nbsp;·&nbsp; full-stack research data platform
+### Blue Omics - full-stack research data platform
 
 A Django, React, and PostgreSQL platform I designed and built from scratch for a research lab. It grew from zero to **5M+ live records** across 32 data models and 58 API endpoints, replaced years of manual spreadsheet workflows, and became the primary system for every lab submission.
 
@@ -61,7 +61,7 @@ A Django, React, and PostgreSQL platform I designed and built from scratch for a
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
-### ApplyScore &nbsp;·&nbsp; AI resume gap-analysis Chrome extension
+### ApplyScore - AI resume gap-analysis Chrome extension
 
 A published Chrome extension that scores how well a resume matches any job posting on the web, with evidence-linked gaps and no hallucinated fluff.
 
@@ -73,7 +73,27 @@ A published Chrome extension that scores how well a resume matches any job posti
 ![Chrome](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![LLM](https://img.shields.io/badge/LLM_APIs-1a3a5c?style=flat-square)
 
-[**View on the Chrome Web Store →**](https://chromewebstore.google.com/detail/applyscore/ibecekikdjelajpnjnmapejhahgcplim)
+[**View on the Chrome Web Store ->**](https://chromewebstore.google.com/detail/applyscore/ibecekikdjelajpnjnmapejhahgcplim)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0c10,100:4d9fff&height=2&width=100%" width="100%" />
+
+## Open source
+
+I fix real bugs in the AI infrastructure I build on: inference engines, ML frameworks, and the tooling around them. 30+ merged pull requests across 20+ open-source projects, each one a root-caused fix backed by a regression test.
+
+**LLM inference and ML frameworks**
+
+- [**llama.cpp**](https://github.com/ggml-org/llama.cpp/pull/24305) (ggml) - fixed `rms_norm_back` producing wrong output under in-place aliasing on the CPU backend
+- [**MLX**](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) (Apple) - signed-integer overflow in `roll` and `tile`; undefined behavior in `arange(step=0)`
+- [**MLX-LM**](https://github.com/ml-explore/mlx-lm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) (Apple) - server 404 on short prompts; sampler `top_k` bound fix
+- [**RAGFlow**](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) - broken language detection; Excel parser off-by-one chunking
+- [**mem0**](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) - Redis, FAISS, and Weaviate crashes and filtered-search truncation
+
+**Developer tooling**
+
+Cost-accuracy and edge-case fixes across a suite of open-source CLI and macOS tools: pricing-unit bugs (per-token vs per-request), timezone and Unicode handling, performance regressions, and more.
+
+[**See all merged contributions ->**](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged&type=pullrequests)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0c10,100:4d9fff&height=2&width=100%" width="100%" />
 
@@ -81,18 +101,18 @@ A published Chrome extension that scores how well a resume matches any job posti
 
 | | |
 |---|---|
-| **AI / ML** | Open-weight LLMs · RAG · Vector search (Qdrant) · Embeddings · Reranking · Model evaluation · vLLM · Ollama |
-| **Backend** | Python · Django · Django REST · FastAPI · Node.js · PostgreSQL · Redis |
-| **Frontend** | React · TypeScript · Modern HTML/CSS |
-| **Infra** | Docker · Kubernetes · Terraform · GCP · AWS · CI/CD · GitHub Actions |
+| **AI / ML** | Open-weight LLMs, RAG, Vector search (Qdrant), Embeddings, Reranking, Model evaluation, vLLM, Ollama |
+| **Backend** | Python, Django, Django REST, FastAPI, Node.js, PostgreSQL, Redis |
+| **Frontend** | React, TypeScript, Modern HTML/CSS |
+| **Infra** | Docker, Kubernetes, Terraform, GCP, AWS, CI/CD, GitHub Actions |
 
-## Recognition & Education
+## Recognition and education
 
 **Herbert Wertheim College of Engineering Achievement Award**, University of Florida. Merit scholarship awarded for top academic standing.
 
-- M.S. Computer & Information Science & Engineering, University of Florida — GPA 3.8 / 4.0
-- Semester Exchange, University of Florida — GPA 3.7 / 4.0
-- B.Tech Computer Science & Engineering, Jaypee University of Engineering & Technology — GPA 9.1 / 10.0
+- M.S. Computer and Information Science and Engineering, University of Florida - GPA 3.8 / 4.0
+- Semester Exchange, University of Florida - GPA 3.7 / 4.0
+- B.Tech Computer Science and Engineering, Jaypee University of Engineering and Technology - GPA 9.1 / 10.0
 
 ## Writing
 
