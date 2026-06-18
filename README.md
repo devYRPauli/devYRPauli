@@ -27,6 +27,8 @@ class YashRajPandey:
 
 I build AI infrastructure and production software. I'm the AI Agents Architect at the University of Florida's Institute of Food and Agricultural Sciences, where I lead a function I proposed myself: self-hosted, air-gapped AI systems built on open-weight models.
 
+The work is end to end: open-weight models served on-prem, retrieval that pairs dense vector search with reranking, agents that call real tools, and evaluation gates that decide what ships. None of it leaves the building, and it holds up under real users rather than a demo.
+
 I joined UF as a Software Engineer in March 2025, was promoted to Lead Software Engineer in October 2025, and moved into the AI Agents Architect role in April 2026.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0c10,100:4d9fff&height=2&width=100%" width="100%" />
@@ -45,6 +47,20 @@ Independent evaluation of TurboQuant (arXiv 2504.19874), a near-optimal LLM quan
 ![Quantization](https://img.shields.io/badge/Quantization-1a3a5c?style=flat-square)
 
 [**View the repo ->**](https://github.com/devYRPauli/turboquant-m1pro-evaluation)
+
+### mddocs - local-first collaborative Markdown, with an API for AI agents
+
+A git-native, self-hostable editor for Markdown: real-time multiplayer, inline comments, and accept/reject suggestions, plus a first-class HTTP API so AI agents read, edit, and review documents the same way people do. Published on npm and built on proof-sdk.
+
+- Local-first and git-native: every change is a commit, no central database to run
+- Real-time collaboration with comments and accept/reject suggestion review
+- Agent-facing HTTP API with per-agent tokens and rate limits, so automated writers are first-class collaborators, not bolt-ons
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+[![npm](https://img.shields.io/npm/v/@devyrpauli/mddocs?style=flat-square&logo=npm&label=npm&color=CB3837)](https://www.npmjs.com/package/@devyrpauli/mddocs)
+
+[**View the repo ->**](https://github.com/devYRPauli/mddocs)
 
 ### Blue Omics - full-stack research data platform
 
@@ -101,7 +117,7 @@ Cost-accuracy and edge-case fixes across a suite of open-source CLI and macOS to
 
 | | |
 |---|---|
-| **AI / ML** | Open-weight LLMs, RAG, Vector search (Qdrant), Embeddings, Reranking, Model evaluation, vLLM, Ollama |
+| **AI / ML** | Open-weight LLMs, vLLM, Ollama, RAG, hybrid retrieval, Qdrant, rerankers, embeddings, agents and tool use, quantization, evaluation harnesses |
 | **Backend** | Python, Django, Django REST, FastAPI, Node.js, PostgreSQL, Redis |
 | **Frontend** | React, TypeScript, Modern HTML/CSS |
 | **Infra** | Docker, Kubernetes, Terraform, GCP, AWS, CI/CD, GitHub Actions |
@@ -126,7 +142,7 @@ I keep playbooks on what I learn shipping local AI, over on [yashrajpandey.com](
 
 <div align="center">
 
-**Off the clock:** football (I built [Football Hub](https://football-hub-six.vercel.app/) because I love the game), tactical FPS, story-rich RPGs, and lo-fi for flow state.
+**Off the clock:** football (I built [Football Hub](https://football-hub-six.vercel.app/) and [World Cup 2026 Picks](https://world-cup-2026-picks.vercel.app) because I love the game), tactical FPS, story-rich RPGs, and lo-fi for flow state.
 
 *Open to good conversations on AI infrastructure and local-first LLM systems.*
 
