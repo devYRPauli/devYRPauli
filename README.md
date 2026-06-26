@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0c10,50:1a3a5c,100:4d9fff&height=200&section=header&text=Yash%20Raj%20Pandey&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=AI%20Agents%20Architect%20-%20Full-Stack%20-%20Systems%20-%20Open%20Source&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=4D9FFF&center=true&vCenter=true&width=720&lines=Self-hosted+LLMs+that+never+leak+your+data;RAG+-+vector+search+-+AI+agents;Full-stack+products%2C+systems%2C+open+source;From+a+Postgres+query+plan+to+a+Metal+kernel)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=4D9FFF&center=true&vCenter=true&width=760&lines=Self-hosted+LLMs+that+never+phone+home;I+fix+the+open-source+tools+I+depend+on;Postgres+query+plan+by+day%2C+Metal+kernel+by+night;Yes%2C+I+built+apps+for+my+football+habit;Three+job+titles+in+13+months%2C+and+yes+I+sleep;If+it+hallucinates%2C+it+does+not+ship)
 
 [![Website](https://img.shields.io/badge/Website-yashrajpandey.com-4d9fff?style=for-the-badge)](https://yashrajpandey.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashrajpandeyy/)
