@@ -48,6 +48,20 @@ Independent evaluation of TurboQuant (arXiv 2504.19874), a near-optimal LLM quan
 
 [**View the repo ->**](https://github.com/devYRPauli/turboquant-m1pro-evaluation)
 
+### Looma - local-first project memory for coding agents
+
+A command-line tool that turns Claude Code, Codex, and Cursor history into resumable project context: active work, decisions, blockers, the commits and files in flight, and the next likely step. Local-first, no cloud, no API keys, zero third-party dependencies.
+
+- Reconstructs structured WorkItems (features, bugfixes, refactors, migrations) from raw agent transcripts, instead of keyword-searching logs
+- Emits token-budgeted context packs so one agent can hand off to another without replaying the whole history
+- Honest by design: every reconstruction carries a confidence score and shows alternatives instead of guessing
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-1a3a5c?style=flat-square)
+
+[**View the repo ->**](https://github.com/devYRPauli/looma)
+
 ### mddocs - local-first collaborative Markdown, with an API for AI agents
 
 A git-native, self-hostable editor for Markdown: real-time multiplayer, inline comments, and accept/reject suggestions, plus a first-class HTTP API so AI agents read, edit, and review documents the same way people do. Published on npm and built on proof-sdk.
@@ -61,21 +75,6 @@ A git-native, self-hostable editor for Markdown: real-time multiplayer, inline c
 [![npm](https://img.shields.io/npm/v/@devyrpauli/mddocs?style=flat-square&logo=npm&label=npm&color=CB3837)](https://www.npmjs.com/package/@devyrpauli/mddocs)
 
 [**View the repo ->**](https://github.com/devYRPauli/mddocs)
-
-### Blue Omics - full-stack research data platform
-
-A Django, React, and PostgreSQL platform I designed and built from scratch for a research lab. It grew from zero to **5M+ live records** across 32 data models and 58 API endpoints, replaced years of manual spreadsheet workflows, and became the primary system for every lab submission.
-
-- Tuned PostgreSQL with explicit indexing and caching to hold low-millisecond median latency under concurrent access by 30+ researchers
-- Built 7 ingestion pipelines for heterogeneous formats: PDF, Excel, CSV, Word, PowerPoint
-- Automated R Markdown reporting, cutting a 2-3 hour manual process to 15-20 minutes
-- Deployed on GCP with Kubernetes and Terraform; optimized the frontend from 8s to 3s load time
-
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 ### ApplyScore - AI resume gap-analysis Chrome extension
 
@@ -95,7 +94,7 @@ A published Chrome extension that scores how well a resume matches any job posti
 
 ## Open source
 
-I fix real bugs in the AI infrastructure I build on: inference engines, ML frameworks, and the tooling around them. 30+ merged pull requests across 20+ open-source projects, each one a root-caused fix backed by a regression test.
+I fix real bugs in the AI infrastructure I build on: inference engines, ML frameworks, and the tooling around them. 35+ merged pull requests across 25+ open-source projects, each one a root-caused fix backed by a regression test.
 
 **LLM inference and ML frameworks**
 
