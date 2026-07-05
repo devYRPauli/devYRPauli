@@ -23,7 +23,7 @@ class YashRajPandey:
     builds      = ["AI infrastructure", "full-stack products",
                    "developer tools", "native + CLI apps"]
     languages   = ["Python", "TypeScript", "Swift", "Java", "C/C++"]
-    open_source = "35+ merged PRs across 25+ projects, 4 ecosystems"
+    open_source = "45+ merged PRs across 30+ projects, 4 ecosystems"
     philosophy  = "Find the real problem. Ship the simplest thing that works. Measure. Iterate."
 ```
 
@@ -40,7 +40,7 @@ I joined UF as a Software Engineer in March 2025, was promoted to Lead Software 
 ## A year in
 
 - **Promoted twice in ~13 months** - Software Engineer to Lead Software Engineer to AI Agents Architect
-- **35+ merged open-source pull requests across 25+ projects**, spanning Apple's MLX, ggml / llama.cpp (C/C++), Python ML frameworks, and the TypeScript / Node ecosystem
+- **45+ merged open-source pull requests across 30+ projects**, spanning Apple's MLX, ggml / llama.cpp (C/C++), Python ML frameworks, and the TypeScript / Node ecosystem
 - **A full-stack platform I built solo grew to 5M+ live records** and became the primary system for 30+ researchers
 - **Shipped software people actually use** - a Chrome Web Store extension, a published npm package, and several deployed web apps
 - **Herbert Wertheim College of Engineering Achievement Award**, alongside an M.S. in CISE (GPA 3.8)
@@ -119,7 +119,7 @@ I joined UF as a Software Engineer in March 2025, was promoted to Lead Software 
 
 ### Open source and systems
 
-I fix real bugs in the software I build on and the tools I use every day, across four ecosystems. **35+ merged pull requests across 25+ open-source projects**, each one a root-caused fix backed by a regression test.
+I fix real bugs in the software I build on and the tools I use every day, across four ecosystems. **45+ merged pull requests across 30+ open-source projects**, each one a root-caused fix backed by a regression test.
 
 **LLM inference and ML frameworks**
 
