@@ -161,11 +161,10 @@ I fix real bugs in the software I build on and the tools I use every day, across
 
 ## Writing
 
-I keep playbooks on what I learn shipping local AI, over on [yashrajpandey.com](https://yashrajpandey.com):
+I write up my deep dives on [yashrajpandey.com](https://yashrajpandey.com):
 
-- Self-hosting open-weight LLMs without sending data to a cloud API
-- RAG that holds up in production: retrieval, reranking, and the evals that keep it honest
-- Evaluation-gated releases for LLM systems
+- [From 0% to 100%: debugging a KV cache compression algorithm on a 16GB MacBook](https://yashrajpandey.com/writing/turboquant-on-a-16gb-macbook/)
+- [I tried to break Google's new tabular foundation model. Then I fixed it.](https://yashrajpandey.com/writing/breaking-google-tabfm/)
 
 <br>
 
