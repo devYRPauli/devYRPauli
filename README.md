@@ -7,10 +7,11 @@
 I build local-first LLM infrastructure, agent platforms, and evaluation systems.
 I reproduce new model research, publish what broke, and send the fixes upstream.
 
-[![Website](https://img.shields.io/badge/Website-yashrajpandey.com-1f6feb?style=flat-square)](https://yashrajpandey.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Raj_Pandey-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashrajpandeyy/)
-[![X](https://img.shields.io/badge/X-@I__AM__YRP-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/I_AM_YRP)
-[![Resume](https://img.shields.io/badge/Resume-PDF-4285F4?style=flat-square)](https://yashrajpandey.com/Resume_YashRaj.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1f6feb?style=for-the-badge&logo=astro&logoColor=white)](https://yashrajpandey.com)
+[![Writing](https://img.shields.io/badge/Writing-FF5D01?style=for-the-badge&logo=rss&logoColor=white)](https://yashrajpandey.com/writing/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/yashrajpandeyy/)
+[![X](https://img.shields.io/badge/@devYRPauli-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/devYRPauli)
+[![Resume](https://img.shields.io/badge/Resume-008080?style=for-the-badge&logo=latex&logoColor=white)](https://yashrajpandey.com/Resume_YashRaj.pdf)
 
 </div>
 
