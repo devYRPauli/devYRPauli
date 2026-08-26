@@ -106,8 +106,8 @@ hiding in the safe games.
 
 **[TabFM Evaluation](https://github.com/devYRPauli/tabfm-evaluation)** - I tried to break Google's
 tabular foundation model, across 3 machines and 13 datasets. Four upstream
-issues, one merged fix. On review I demoted two of my own wins to ties, because
-the folds did not match. [Write-up](https://yashrajpandey.com/writing/breaking-google-tabfm/)
+issues, one merged fix. A multi-seed check then made me demote two of my own
+wins to ties, because the margins sat inside measurement noise. [Write-up](https://yashrajpandey.com/writing/breaking-google-tabfm/)
 
 **[TurboQuant on Apple Silicon](https://github.com/devYRPauli/turboquant-m1pro-evaluation)** -
 five implementation bugs across the MLX and llama.cpp paths, on a 16 GB M1 Pro.
