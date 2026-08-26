@@ -50,7 +50,7 @@ What that has meant in practice:
   damaged text. Check the alarm before you act on it.
 
 I also lead the genomics platform for the UF blueberry breeding program: the
-system of record for 30 researchers across 5 labs. I joined it at 81 source
+system of record for 30+ researchers across 5 labs. I joined it at 81 source
 files and took the lead seat.
 
 Software Engineer March 2025, Lead Software Engineer seven months later, AI
