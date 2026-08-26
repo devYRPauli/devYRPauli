@@ -107,6 +107,12 @@ the result is a commit. 17 releases on [npm](https://www.npmjs.com/package/@devy
 Self-hostable prediction pool. Skipped picks count as wrong, so there is no
 hiding in the safe games.
 
+**[ApplyScore](https://chromewebstore.google.com/detail/applyscore/ibecekikdjelajpnjnmapejhahgcplim)** - resume-to-posting matching, on the Chrome Web Store.
+Most AI resume tools rewrite your bullets and invent skills you never had. This
+one scores the match and ties every claim to the evidence for it. Eight
+site-specific extractors, because job boards bury the posting in Shadow DOM.
+Closed source. [Case study](https://yashrajpandey.com/work/applyscore/)
+
 ## Things I broke on purpose
 
 **[TabFM Evaluation](https://github.com/devYRPauli/tabfm-evaluation)** - I tried to break Google's
