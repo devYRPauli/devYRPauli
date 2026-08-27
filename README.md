@@ -20,6 +20,8 @@ results.
 
 </div>
 
+Most of my side projects start with a bug I could not leave alone.
+
 ## What I work on
 
 At UF/IFAS, I build and run AI systems for scientific research.
