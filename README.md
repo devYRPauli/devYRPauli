@@ -28,11 +28,14 @@ At UF/IFAS, I build and run AI systems for scientific research.
 
 I build AI systems that help researchers work with scientific literature and
 data. The goal is practical: make it easier to find evidence, compare sources,
-and turn complex research material into useful, traceable answers.
+and turn complex research material into useful, traceable answers. The system
+supports work across more than 10,000 technical documents.
 
 I also lead development of a data platform for agricultural research. The work
 brings scattered research data into a more reliable system so scientists can
-spend less time cleaning files and more time studying results.
+spend less time cleaning files and more time studying results. It brings more
+than 1.5 million research records into one system used by more than 30
+researchers across five labs.
 
 I joined UF/IFAS in March 2025 after completing my MS at the University of
 Florida. I now work there as an AI Agents Architect.
