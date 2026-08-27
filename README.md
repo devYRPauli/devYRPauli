@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="The model is the easy part. Proving the answer is right is the hard one." width="100%">
+
 # Yash Raj Pandey
 
 **AI systems engineer at UF/IFAS**
