@@ -26,16 +26,13 @@ Most of my side projects start with a bug I could not leave alone.
 
 At UF/IFAS, I build and run AI systems for scientific research.
 
-My main project is CERES, a multimodal agentic system for working with research
-papers, scientific data, and lab tools. Production generation runs through the
-university's NaviGator service with Nemotron 120B. I am also evaluating
-Qwen3.8-27B. Retrieval and reranking run on lab hardware, where I can measure
-and control the full path from a source document to an answer.
+I build AI systems that help researchers work with scientific literature and
+data. The goal is practical: make it easier to find evidence, compare sources,
+and turn complex research material into useful, traceable answers.
 
-I also lead Blue Omics, the data platform for the UF blueberry breeding
-program. A production audit in August 2026 counted 1,560,683 rows across 47
-PostgreSQL tables in an 18 GiB database. The platform supports more than 30
-researchers across five labs.
+I also lead development of a data platform for agricultural research. The work
+brings scattered research data into a more reliable system so scientists can
+spend less time cleaning files and more time studying results.
 
 I joined UF/IFAS in March 2025 after completing my MS at the University of
 Florida. I now work there as an AI Agents Architect.
