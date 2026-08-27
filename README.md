@@ -8,15 +8,15 @@ I build scientific AI systems, agent infrastructure, evaluation tools, and
 developer tools. I care about clear evidence, reliable software, and honest
 results.
 
-<a href="https://yashrajpandey.com"><img src="assets/portfolio.svg" alt="Portfolio" height="38"></a>
+<a href="https://yashrajpandey.com"><img src="assets/portfolio.svg?v=2" alt="Portfolio" height="38"></a>
 &nbsp;&nbsp;
-<a href="https://yashrajpandey.com/writing/"><img src="assets/writing.svg" alt="Writing" height="38"></a>
+<a href="https://yashrajpandey.com/writing/"><img src="assets/writing.svg?v=2" alt="Writing" height="38"></a>
 &nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/yashrajpandeyy/"><img src="assets/linkedin.svg" alt="LinkedIn" height="38"></a>
+<a href="https://www.linkedin.com/in/yashrajpandeyy/"><img src="assets/linkedin.svg?v=2" alt="LinkedIn" height="38"></a>
 &nbsp;&nbsp;
-<a href="https://x.com/devYRPauli"><img src="assets/x.svg" alt="X" height="38"></a>
+<a href="https://x.com/devYRPauli"><img src="assets/x.svg?v=2" alt="X" height="38"></a>
 &nbsp;&nbsp;
-<a href="https://yashrajpandey.com/Resume_YashRaj.pdf"><img src="assets/resume.svg" alt="Resume" height="38"></a>
+<a href="https://yashrajpandey.com/Resume_YashRaj.pdf"><img src="assets/resume.svg?v=2" alt="Resume" height="38"></a>
 
 </div>
 
