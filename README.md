@@ -2,10 +2,11 @@
 
 # Yash Raj Pandey
 
-**AI Agents Architect at UF IFAS**
+**AI systems engineer at UF/IFAS**
 
-I build local-first LLM infrastructure, agent platforms, and evaluation systems.
-I reproduce new model research, publish what broke, and send the fixes upstream.
+I build scientific AI systems, agent infrastructure, evaluation tools, and
+developer tools. I care about clear evidence, reliable software, and honest
+results.
 
 <a href="https://yashrajpandey.com"><img src="assets/portfolio.svg" alt="Portfolio" height="38"></a>
 &nbsp;&nbsp;
@@ -19,125 +20,67 @@ I reproduce new model research, publish what broke, and send the fixes upstream.
 
 </div>
 
-## Day job
+## What I work on
 
-I build and run AI systems for a university research institute. One constraint
-shapes everything else: lab data stays on infrastructure the university
-controls.
+At UF/IFAS, I build and run AI systems for scientific research.
 
-That splits the stack in a place I like. Generation runs on the university's
-shared on-premises GPU cluster, because the model is far too large to sit under
-a desk. Retrieval and reranking run on a Mac Studio in the lab, because I
-benchmarked both paths and hybrid retrieval with a local cross-encoder won
-outright. So the commodity half runs on shared infrastructure, and the half that
-decides whether an answer is right runs where I can measure it. That was a
-measurement, not a preference.
+My main project is CERES, a multimodal agentic system for working with research
+papers, scientific data, and lab tools. Production generation runs through the
+university's NaviGator service with Nemotron 120B. I am also evaluating
+Qwen3.8-27B. Retrieval and reranking run on lab hardware, where I can measure
+and control the full path from a source document to an answer.
 
-The model is the easy part. You download it and it answers. The hard part is
-working out what the question was before any model runs, getting clean text out
-of documents that resist it, and proving an answer is right before a scientist
-acts on it. A confident wrong number is worse than an error.
+I also lead Blue Omics, the data platform for the UF blueberry breeding
+program. A production audit in August 2026 counted 1,560,683 rows across 47
+PostgreSQL tables in an 18 GiB database. The platform supports more than 30
+researchers across five labs.
 
-What that has meant in practice:
+I joined UF/IFAS in March 2025 after completing my MS at the University of
+Florida. I now work there as an AI Agents Architect.
 
-- About twenty routing rules, each correct alone, collided in production. I
-  replaced them with one deterministic arbiter that can be read and tested.
-- A hand-written agent loop grew until one tool failure could stop the whole
-  assistant. I replaced it with a proven framework, and shipped it only after it
-  beat the old one on a held-out set.
-- Every number in an answer traces back to the tool result it came from.
-- An alarming document-quality metric turned out to be a measurement bug, not
-  damaged text. Check the alarm before you act on it.
+## Selected projects
 
-I also lead the genomics platform for the UF blueberry breeding program: the
-system of record for 30+ researchers across 5 labs. I joined it at 81 source
-files and took the lead seat.
+| Project | What it does |
+|---|---|
+| [Podium](https://github.com/devYRPauli/podium) | Runs delegated coding work with acceptance checks and durable receipts. |
+| [Looma](https://github.com/devYRPauli/looma) | Turns coding-agent history into resumable project context. Local-first, zero dependencies, and available on PyPI. |
+| [willitcall](https://github.com/devYRPauli/willitcall) | Tests tool calling across local models, quantizations, templates, and inference servers. |
+| [mddocs](https://github.com/devYRPauli/mddocs) | Adds real-time collaboration, comments, suggestions, and an agent API to Markdown files stored in git. |
+| [TabFM evaluation](https://github.com/devYRPauli/tabfm-evaluation) | Reproduces Google's TabFM across three machines and 13 datasets, including baselines, failure analysis, and upstream fixes. |
+| [TurboQuant evaluation](https://github.com/devYRPauli/turboquant-m1pro-evaluation) | Tests KV-cache compression on a 16 GB M1 Pro across MLX and llama.cpp. |
 
-Software Engineer March 2025, Lead Software Engineer seven months later, AI
-Agents Architect since April 2026.
+I have also shipped [ApplyScore](https://yashrajpandey.com/work/applyscore/), a
+Chrome extension for comparing a resume with a job posting;
+[World Cup 2026 Picks](https://github.com/devYRPauli/world-cup-2026-picks), a
+self-hosted prediction pool; and
+[Football Hub](https://github.com/devYRPauli/football-hub), a live football data
+dashboard.
 
 ## Open source
 
-**65 merged pull requests across 28 projects.** Each one starts with a failure I
-reproduced and ends with a focused fix and a regression test.
+As of August 2026, I have 69 merged pull requests across 30 external projects.
+Most begin with a failure I can reproduce and end with a focused fix and a
+regression test.
 
-| Project | Stars | Merged | What I fix there |
-|---|---|---|---|
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 126k | 3 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 89k | 14 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 64k | 4 | Retrieval and vector store correctness. |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 57k | 3 | Billing. People pay these numbers. |
-| [agno-agi/agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 1 | Reader took the user id from the wrong field. |
-| [ml-explore/mlx](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 2 | Undefined behavior in shape arithmetic. |
-| [steipete/CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 21k | 8 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
-| [ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 6.8k | 2 | Server 404 on short prompts. |
+I have contributed to projects including
+[llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
+[RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
+[Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
+[LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
+[MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
+and [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged).
+The work is usually about data integrity, parsers, compatibility, billing, or
+edge cases that fail silently.
 
-The other 28 are spread across 20 smaller projects: oracle, poltergeist, RepoBar,
-birdclaw, summarize, tokentally, and
-[google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
-prediction crashed on multi-device hosts. I found that one during my own
-evaluation of the model.
-
-Another 39 are open, and I have filed bug reports against
-[ollama](https://github.com/ollama/ollama/issues?q=author%3AdevYRPauli),
-[nanochat](https://github.com/karpathy/nanochat/issues?q=author%3AdevYRPauli) and
-[mcpb](https://github.com/modelcontextprotocol/mcpb/issues?q=author%3AdevYRPauli).
-
-[Every merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged&type=pullrequests)
-
-## Things I built
-
-**[willitcall](https://github.com/devYRPauli/willitcall)** - the caniuse of local-model tool calling.
-Most local models claim tool calling. Fewer do it twice in a row. Same suite,
-every model, one matrix. Nobody had published it -> 32 rows, 3 servers.
-
-**[looma](https://github.com/devYRPauli/looma)** - local-first memory for coding agents.
-Turns Claude Code, Codex and Cursor history into resumable project context.
-134 tests, zero dependencies, on [PyPI](https://pypi.org/project/looma/).
-
-**[podium](https://github.com/devYRPauli/podium)** - verified delegation for Claude Code.
-One agent hands briefed work to a roster of bots. A shell command, not a model,
-decides whether the work landed.
-
-**[mddocs](https://github.com/devYRPauli/mddocs)** - git-native collaborative Markdown, with an agent API.
-Yjs multiplayer over plain files in git. An agent suggests, a person accepts,
-the result is a commit. 17 releases on [npm](https://www.npmjs.com/package/@devyrpauli/mddocs).
-
-**[world-cup-2026-picks](https://github.com/devYRPauli/world-cup-2026-picks)** - a product that shipped.
-Self-hostable prediction pool. Skipped picks count as wrong, so there is no
-hiding in the safe games.
-
-**[ApplyScore](https://chromewebstore.google.com/detail/applyscore/ibecekikdjelajpnjnmapejhahgcplim)** - resume-to-posting matching, on the Chrome Web Store.
-Most AI resume tools rewrite your bullets and invent skills you never had. This
-one scores the match and ties every claim to the evidence for it. Eight
-site-specific extractors, because job boards bury the posting in Shadow DOM.
-Closed source. [Case study](https://yashrajpandey.com/work/applyscore/)
-
-## Things I broke on purpose
-
-**[TabFM Evaluation](https://github.com/devYRPauli/tabfm-evaluation)** - I tried to break Google's
-tabular foundation model, across 3 machines and 13 datasets. Four upstream
-issues, one merged fix. A multi-seed check then made me demote two of my own
-wins to ties, because the margins sat inside measurement noise. [Write-up](https://yashrajpandey.com/writing/breaking-google-tabfm/)
-
-**[TurboQuant on Apple Silicon](https://github.com/devYRPauli/turboquant-m1pro-evaluation)** -
-five implementation bugs across the MLX and llama.cpp paths, on a 16 GB M1 Pro.
-Needle retrieval 0% -> 100% at 16K. [Write-up](https://yashrajpandey.com/writing/turboquant-on-a-16gb-macbook/)
-
-## Stack
-
-**Inference and agents:** vLLM, llama.cpp, MLX, Ollama, Qdrant, RAG, reranking, tool calling, eval harnesses, quantization, MCP
-**Languages:** Python, TypeScript, Rust, SQL, C/C++, Bash
-**Rest:** Django, FastAPI, React, Next.js, PostgreSQL, DuckDB, SQLite, Docker, Linux, GCP
+[See every merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged&type=pullrequests).
 
 ## Writing
 
 - [The Work You Don't Do: Losing Two Optimization Competitions the Same Way](https://yashrajpandey.com/writing/the-work-you-dont-do/)
 - [Eight Submissions, Zero Promotions: A Week Inside mlx.fast on the Wrong Hardware](https://yashrajpandey.com/writing/eight-submissions-zero-promotions/)
 - [I Tried to Break Google's New Tabular Foundation Model. Then I Fixed It.](https://yashrajpandey.com/writing/breaking-google-tabfm/)
+- [Same Weights, Opposite Results: Testing Tool Calling Across Local Inference Stacks](https://yashrajpandey.com/writing/same-weights-opposite-results/)
 
-Two of those three are about losing. The ratio is roughly right.
-
----
-
-Outside work: football, tactical FPS, story-rich RPGs, and lo-fi for flow state.
+I mostly work in Python, TypeScript, Rust, SQL, C, C++, and Bash. Outside work,
+I follow football, play tactical shooters and story-rich RPGs, and listen to
+lo-fi while I build.
