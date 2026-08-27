@@ -4,9 +4,7 @@
 
 **AI systems engineer at UF/IFAS**
 
-I build scientific AI systems, agent infrastructure, evaluation tools, and
-developer tools. I care about clear evidence, reliable software, and honest
-results.
+I work on the layer where AI systems quietly go wrong, and I prove it.
 
 <a href="https://yashrajpandey.com"><img src="assets/work-link.svg" alt="Portfolio" height="38"></a>
 &nbsp;&nbsp;
@@ -24,21 +22,32 @@ Most of my side projects start with a bug I could not leave alone.
 
 ## What I work on
 
-At UF/IFAS, I build and run AI systems for scientific research.
+At UF/IFAS I build and run AI systems for scientific research. One constraint
+shapes everything else: research data stays on infrastructure the university
+controls.
 
-I build AI systems that help researchers work with scientific literature and
-data. The goal is practical: make it easier to find evidence, compare sources,
-and turn complex research material into useful, traceable answers. The system
-supports work across more than 10,000 technical documents.
+The model is the easy part. You download it and it answers. The hard part is
+working out what the question was before any model runs, getting clean text out
+of documents that resist it, and proving an answer is right before a scientist
+acts on it. A confident wrong number is worse than an error.
 
-I also lead development of a data platform for agricultural research. The work
-brings scattered research data into a more reliable system so scientists can
-spend less time cleaning files and more time studying results. It brings more
-than 1.5 million research records into one system used by more than 30
-researchers across five labs.
+Some of what that has meant:
 
-I joined UF/IFAS in March 2025 after completing my MS at the University of
-Florida. I now work there as an AI Agents Architect.
+- About twenty routing rules, each correct on its own, collided in production. I
+  replaced them with one deterministic arbiter that can be read and tested.
+- A hand-written agent loop grew until one tool failure could stop the whole
+  assistant. I replaced it with a proven framework, and shipped it only after it
+  beat the old one on a held-out set.
+- Every number in an answer traces back to the tool result it came from.
+- An alarming document-quality metric turned out to be a measurement bug, not
+  damaged text. Check the alarm before you act on it.
+
+I also lead a data platform for agricultural research. It brings scattered
+spreadsheets into one system of record: about 1.5 million research records, used
+by more than 30 researchers across five labs.
+
+I joined UF/IFAS in March 2025 after my MS at the University of Florida. Two
+promotions since. I am now the AI Agents Architect.
 
 ## Projects
 
@@ -58,19 +67,30 @@ Florida. I now work there as an AI Agents Architect.
 
 ## Open source
 
-As of August 2026, I have 74 merged pull requests across 35 external projects.
-Most begin with a failure I can reproduce and end with a focused fix and a
-regression test.
+**69 merged pull requests across 30 external projects.** Almost none of them are
+features. Most are the class of bug that returns a plausible wrong answer
+instead of an error.
 
-I have contributed to projects including
-[llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
-[RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
-[Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
-[LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
-[MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged),
-and [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged).
-The work is usually about data integrity, parsers, compatibility, billing, or
-edge cases that fail silently.
+| Project | Stars | Merged | What I work on there |
+|---|---|---|---|
+| [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 125k | 3 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. |
+| [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 89k | 16 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
+| [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 64k | 4 | Retrieval and vector store correctness. |
+| [LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 57k | 3 | Billing. People pay these numbers. |
+| [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 41k | 1 | A reader that took the user id from the wrong field. |
+| [MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 2 | Undefined behavior in shape arithmetic. |
+| [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 20k | 8 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
+| [txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 1 | Embeddings and retrieval correctness. |
+| [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
+
+The other 30 are spread across 21 smaller projects: mlx-lm, turboquant_plus, and
+a long run through Peter Steinberger's tool ecosystem. One is
+[google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
+prediction crashed on multi-device hosts. I found that during my own evaluation
+of the model, which is the short version of how most of these start.
+
+Another 39 pull requests are open. When I cannot fix something myself I file the
+reproduction instead, which is where my 10 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
 
