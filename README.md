@@ -69,7 +69,7 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**69 merged pull requests across 30 external projects.** Almost none of them are
+**84 merged pull requests across 38 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
@@ -85,13 +85,13 @@ instead of an error.
 | [txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 1 | Embeddings and retrieval correctness. |
 | [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
 
-The other 30 are spread across 21 smaller projects: mlx-lm, turboquant_plus, and
+The other 45 are spread across 29 smaller projects: mlx-lm, turboquant_plus, and
 a long run through Peter Steinberger's tool ecosystem. One is
 [google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 39 pull requests are open. When I cannot fix something myself I file the
+Another 31 pull requests are open. When I cannot fix something myself I file the
 reproduction instead, which is where my 10 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
