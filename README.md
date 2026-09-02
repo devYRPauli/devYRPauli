@@ -75,24 +75,26 @@ instead of an error.
 
 | Project | Stars | Merged | What I work on there |
 |---|---|---|---|
-| [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 125k | 3 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 126k | 3 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. |
 | [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 89k | 16 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
 | [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 64k | 4 | Retrieval and vector store correctness. |
 | [LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 57k | 3 | Billing. People pay these numbers. |
-| [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 41k | 1 | A reader that took the user id from the wrong field. |
+| [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 1 | A reader that took the user id from the wrong field. |
 | [MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 2 | Undefined behavior in shape arithmetic. |
+| [Crush](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 27k | 1 | Model cost tables. Cache-create and cache-hit prices read from each other's keys. |
 | [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 20k | 8 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
 | [txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 1 | Embeddings and retrieval correctness. |
+| [Knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 1 | A CLI flag that parsed to NaN, which switched the CI exit-code gate off in silence. |
 | [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
 
-The other 45 are spread across 29 smaller projects: mlx-lm, turboquant_plus, and
+The other 43 are spread across 27 smaller projects: mlx-lm, turboquant_plus, and
 a long run through Peter Steinberger's tool ecosystem. One is
 [google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 31 pull requests are open. When I cannot fix something myself I file the
-reproduction instead, which is where my 10 upstream issues come from.
+Another 40 pull requests are open. When I cannot fix something myself I file the
+reproduction instead, which is where my 16 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
 
