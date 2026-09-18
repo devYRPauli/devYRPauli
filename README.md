@@ -103,7 +103,7 @@ reproduction instead, which is where my 13 upstream issues come from.
 - [The Work You Don't Do: Losing Two Optimization Competitions the Same Way](https://yashrajpandey.com/writing/the-work-you-dont-do/)
 - [Eight Submissions, Zero Promotions: A Week Inside mlx.fast on the Wrong Hardware](https://yashrajpandey.com/writing/eight-submissions-zero-promotions/)
 - [I Tried to Break Google's New Tabular Foundation Model. Then I Fixed It.](https://yashrajpandey.com/writing/breaking-google-tabfm/)
-- [Same Weights, Opposite Results: Testing Tool Calling Across Local Inference Stacks](https://yashrajpandey.com/writing/same-weights-opposite-results/)
+- [Same Weights, Same Prompt, Opposite Results - Why Local Tool Calling Breaks](https://yashrajpandey.com/writing/same-weights-opposite-results/)
 
 I mostly work in Python, TypeScript, Rust, SQL, C, C++, and Bash. Outside work,
 I follow football, play tactical shooters and story-rich RPGs, and listen to
