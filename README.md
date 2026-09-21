@@ -94,7 +94,7 @@ prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
 Another 40 pull requests are open. When I cannot fix something myself I file the
-reproduction instead, which is where my 13 upstream issues come from.
+reproduction instead, which is where my 12 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
 
