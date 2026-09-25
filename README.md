@@ -69,19 +69,19 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**103 merged pull requests across 38 external projects.** Almost none of them are
+**105 merged pull requests across 38 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
 | Project | Stars | Merged | What I work on there |
 |---|---|---|---|
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 129k | 3 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. |
-| [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 91k | 21 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
+| [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 91k | 22 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
 | [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 65k | 4 | Retrieval and vector store correctness. |
 | [LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 59k | 3 | Billing. People pay these numbers. |
 | [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 4 | A reader that took the user id from the wrong field. Chunking that emitted a duplicate trailing chunk. A PPTX reader that skipped the text inside grouped shapes, and the same bug plus lost line breaks in the Google Drive reader. |
 | [MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 2 | Undefined behavior in shape arithmetic. |
-| [Crush](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 3 | Model cost tables. Cache-create and cache-hit prices read from each other's keys. An enricher that overwrote a capability the user had already set. A provider cache that ignored the data-directory override. |
+| [Crush](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 4 | Model cost tables. Cache-create and cache-hit prices read from each other's keys. An enricher that overwrote a capability the user had already set. A provider cache that ignored the data-directory override. Session and stats commands that opened an empty database when run from a project subdirectory. |
 | [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 21k | 10 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
 | [txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 1 | Embeddings and retrieval correctness. |
 | [Knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 3 | A CLI flag that parsed to NaN, which switched the CI exit-code gate off in silence. A suppression tag that stopped applying to members. An unused tag on an enum or namespace member that was never reported. |
@@ -93,7 +93,7 @@ One is [google-research/tabfm](https://github.com/google-research/tabfm/pull/42)
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 50 pull requests are open. When I cannot fix something myself I file the
+Another 48 pull requests are open. When I cannot fix something myself I file the
 reproduction instead, which is where my 14 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
