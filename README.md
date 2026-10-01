@@ -69,7 +69,7 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**113 merged pull requests across 39 external projects.** Almost none of them are
+**108 merged pull requests across 34 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
@@ -88,7 +88,7 @@ instead of an error.
 | [Knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 5 | A CLI flag that parsed to NaN, which switched the CI exit-code gate off in silence. A suppression tag that stopped applying to members. An unused tag on an enum or namespace member that was never reported. An excluded tag that had no effect on an entry re-export. Tags read under the wrong name when an entry renamed a re-export. |
 | [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
 
-The other 50 are spread across 27 smaller projects: sqlfluff, mlx-lm,
+The other 45 are spread across 22 smaller projects: sqlfluff, mlx-lm,
 turboquant_plus, and a long run through Peter Steinberger's tool ecosystem.
 One is [google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
 prediction crashed on multi-device hosts. I found that during my own evaluation
@@ -97,7 +97,7 @@ of the model, which is the short version of how most of these start.
 Another 53 pull requests are open. When I cannot fix something myself I file the
 reproduction instead, which is where my 17 upstream issues come from.
 
-[See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli&type=pullrequests).
+[See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli+-user%3Avikumkbv+-user%3Aomonimus1+-user%3AC0D1NG+-user%3Aankit039+-user%3AJetBrains&type=pullrequests).
 
 ## Writing
 
