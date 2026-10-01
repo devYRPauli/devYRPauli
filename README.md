@@ -69,7 +69,7 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**112 merged pull requests across 39 external projects.** Almost none of them are
+**113 merged pull requests across 39 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
@@ -83,7 +83,7 @@ instead of an error.
 | [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 4 | A reader that took the user id from the wrong field. Chunking that emitted a duplicate trailing chunk. A PPTX reader that skipped the text inside grouped shapes, and the same bug plus lost line breaks in the Google Drive reader. |
 | [MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 2 | Undefined behavior in shape arithmetic. |
 | [Crush](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 4 | Model cost tables. Cache-create and cache-hit prices read from each other's keys. An enricher that overwrote a capability the user had already set. A provider cache that ignored the data-directory override. Session and stats commands that opened an empty database when run from a project subdirectory. |
-| [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 22k | 10 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
+| [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 22k | 11 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
 | [txtai](https://github.com/neuml/txtai/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 13k | 2 | Embeddings and retrieval correctness. |
 | [Knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 5 | A CLI flag that parsed to NaN, which switched the CI exit-code gate off in silence. A suppression tag that stopped applying to members. An unused tag on an enum or namespace member that was never reported. An excluded tag that had no effect on an entry re-export. Tags read under the wrong name when an entry renamed a re-export. |
 | [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
