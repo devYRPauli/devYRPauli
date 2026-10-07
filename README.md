@@ -69,7 +69,7 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**126 merged pull requests across 34 external projects.** Almost none of them are
+**127 merged pull requests across 34 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
@@ -77,7 +77,7 @@ instead of an error.
 |---|---|---|---|
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 130k | 7 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. A CUDA copy that corrupted strided destinations. A quantizer scale search that rounded invalid values. A chat parser that ignored the JSON schema. |
 | [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 91k | 23 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
-| [Docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 68k | 1 | Spreadsheet conversion. A reply in a threaded Excel comment that overwrote the first message. |
+| [Docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 68k | 2 | Office document conversion. A reply in a threaded Excel comment that overwrote the first message. ODT comments spliced into the text they annotated. |
 | [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 66k | 4 | Retrieval and vector store correctness. |
 | [LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 60k | 3 | Billing. People pay these numbers. |
 | [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 5 | A reader that took the user id from the wrong field. Chunking that emitted a duplicate trailing chunk. A PPTX reader that skipped the text inside grouped shapes, and the same bug plus lost line breaks in the Google Drive reader. MongoDB session and memory searches that read user text as a regex. |
@@ -94,8 +94,8 @@ One is [google-research/tabfm](https://github.com/google-research/tabfm/pull/42)
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 52 pull requests are open. When I cannot fix something myself I file the
-reproduction instead, which is where my 17 upstream issues come from.
+Another 51 pull requests are open. When I cannot fix something myself I file the
+reproduction instead, which is where my 16 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli+-user%3Avikumkbv+-user%3Aomonimus1+-user%3AC0D1NG+-user%3Aankit039+-user%3AJetBrains&type=pullrequests).
 
