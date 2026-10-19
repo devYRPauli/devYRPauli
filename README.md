@@ -69,7 +69,7 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**133 merged pull requests across 35 external projects.** Almost none of them are
+**137 merged pull requests across 36 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
@@ -81,7 +81,7 @@ instead of an error.
 | [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 67k | 4 | Retrieval and vector store correctness. |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 67k | 2 | Prompt compression and token counting. A compressed prompt that dropped the image attached to the current message. A token count that ignored the text of a message with an attachment. |
 | [LiteLLM](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 61k | 3 | Billing. People pay these numbers. |
-| [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 5 | A reader that took the user id from the wrong field. Chunking that emitted a duplicate trailing chunk. A PPTX reader that skipped the text inside grouped shapes, and the same bug plus lost line breaks in the Google Drive reader. MongoDB session and memory searches that read user text as a regex. |
+| [Agno](https://github.com/agno-agi/agno/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 42k | 6 | A reader that took the user id from the wrong field. Chunking that emitted a duplicate trailing chunk. A PPTX reader that skipped the text inside grouped shapes, and the same bug plus lost line breaks in the Google Drive reader. MongoDB session and memory searches that read user text as a regex. A YouTube tool that found no video ID in Shorts, live and mobile URLs. |
 | [MLX](https://github.com/ml-explore/mlx/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 3 | Undefined behavior in shape arithmetic. Wrong complex gradients. |
 | [Crush](https://github.com/charmbracelet/crush/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 28k | 4 | Model cost tables. Cache-create and cache-hit prices read from each other's keys. An enricher that overwrote a capability the user had already set. A provider cache that ignored the data-directory override. Session and stats commands that opened an empty database when run from a project subdirectory. |
 | [CodexBar](https://github.com/steipete/CodexBar/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 22k | 11 | Pricing tables, quota display, reset-date rollover, cache-token accounting. |
@@ -89,14 +89,14 @@ instead of an error.
 | [Knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 12k | 9 | A CLI flag that parsed to NaN, which switched the CI exit-code gate off in silence. A suppression tag that stopped applying to members. An unused tag on an enum or namespace member that was never reported. An excluded tag that had no effect on an entry re-export. Tags read under the wrong name when an entry renamed a re-export. Four plugins that missed a config file or a plugin name: Jest, Commitlint, simple-git-hooks and Capacitor. |
 | [pypdf](https://github.com/py-pdf/pypdf/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 10k | 1 | PDF parsing, which sits under most ingestion pipelines. |
 
-The other 50 are spread across 22 smaller projects: sqlfluff, mlx-lm,
+The other 53 are spread across 23 smaller projects: sqlfluff, mlx-lm,
 turboquant_plus, and a long run through Peter Steinberger's tool ecosystem.
 One is [google-research/tabfm](https://github.com/google-research/tabfm/pull/42), where
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 64 pull requests are open. When I cannot fix something myself I file the
-reproduction instead, which is where my 25 upstream issues come from.
+Another 60 pull requests are open. When I cannot fix something myself I file the
+reproduction instead, which is where my 23 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli+-user%3Avikumkbv+-user%3Aomonimus1+-user%3AC0D1NG+-user%3Aankit039+-user%3AJetBrains&type=pullrequests).
 
