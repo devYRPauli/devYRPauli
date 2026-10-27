@@ -69,14 +69,14 @@ promotions since. I am now the AI Agents Architect.
 
 ## Open source
 
-**150 merged pull requests across 38 external projects.** Almost none of them are
+**151 merged pull requests across 38 external projects.** Almost none of them are
 features. Most are the class of bug that returns a plausible wrong answer
 instead of an error.
 
 | Project | Stars | Merged | What I work on there |
 |---|---|---|---|
 | [llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 131k | 7 | Kernels. Wrong gradients under in-place aliasing. A routing table that must not be quantized. A CUDA copy that corrupted strided destinations. A quantizer scale search that rounded invalid values. A chat parser that ignored the JSON schema. |
-| [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 93k | 33 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
+| [RAGFlow](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 93k | 34 | Document parsers. Dropped table cells, spliced CSV fields, crashes on valid input. |
 | [Docling](https://github.com/docling-project/docling/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 68k | 3 | Office document conversion. A reply in a threaded Excel comment that overwrote the first message. ODT comments spliced into the text they annotated. Image file paths written into the text of an ODT list item. |
 | [Mem0](https://github.com/mem0ai/mem0/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 67k | 4 | Retrieval and vector store correctness. |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm/pulls?q=is%3Apr+author%3AdevYRPauli+is%3Amerged) | 67k | 2 | Prompt compression and token counting. A compressed prompt that dropped the image attached to the current message. A token count that ignored the text of a message with an attachment. |
@@ -97,8 +97,8 @@ One is [google-research/tabfm](https://github.com/google-research/tabfm/pull/42)
 prediction crashed on multi-device hosts. I found that during my own evaluation
 of the model, which is the short version of how most of these start.
 
-Another 53 pull requests are open. When I cannot fix something myself I file the
-reproduction instead, which is where my 23 upstream issues come from.
+Another 55 pull requests are open. When I cannot fix something myself I file the
+reproduction instead, which is where my 22 upstream issues come from.
 
 [See every external merged pull request](https://github.com/search?q=is%3Apr+author%3AdevYRPauli+is%3Amerged+-user%3AdevYRPauli+-user%3Avikumkbv+-user%3Aomonimus1+-user%3AC0D1NG+-user%3Aankit039+-user%3AJetBrains&type=pullrequests).
 
